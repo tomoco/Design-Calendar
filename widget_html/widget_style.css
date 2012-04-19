@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-family: "Times New Roman", Times, serif;
+}
+
+/*--------- Widgetのサイズ ----------*/
+#wrap {
+	width: 150px;
+	height: 150px;
+	background-image: url(img/back_150.jpg);
+	position: relative;
+}
+
+
+/*--------- 日 ----------*/
+#day {
+	width: 60px;
+	height: 50px;
+	position: absolute;
+	top: 3px;
+	left: 85px;
+	text-align: center;
+	font-size: 50px;
+}
+
+/*--------- 曜日 ----------*/
+#DotW {
+	width: 60px;
+	height: 30px;
+	position: absolute;
+	top: 55px;
+	left: 85px;
+	text-align: center;
+	font-size:20px;
+}
+
+/*--------- 月 ----------*/
+#month {
+	width: 70px;
+	height: 30px;
+	position: absolute;
+	top: 120px;
+	left: 10px;
+	font-size:18px;
+	font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+#event_box {
+	width: 130px;
+	height: 60px;
+	background-color: #fff;
+	opacity: 0.5;
+	position: absolute;
+	top: 75px;
+	left: 10px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.event_text {
+	width: 120px;
+	height: 40px;
+	margin: 20px auto 0px auto;
+	opacity: 1.0;
+	color: #F00;
+	font-weight: bold;
+	text-align: center;
+	font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
